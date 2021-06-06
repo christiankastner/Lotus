@@ -98,7 +98,7 @@ const particlePalette = [
 // Number of particles at each geometry vertex
 const particleCount = 5;
 
-gltfLoader.load("/models/Lotus/glTF/lotus.glb", (gltf) => {
+gltfLoader.load("https://res.cloudinary.com/dlc0jxvah/image/upload/v1622847714/lotus_cpcfgv.glb", (gltf) => {
   const sceneMeshes = [...gltf.scene.children[1].children];
 
   for (const mesh of sceneMeshes) {
